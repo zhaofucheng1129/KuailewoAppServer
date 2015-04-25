@@ -1,0 +1,23 @@
+1、安装pip 
+下载：https://bootstrap.pypa.io/get-pip.py
+$ python get-pip.py
+2、安装Requests
+$ pip install requests
+3、安装Beautiful Soup
+$ pip install beautifulsoup4
+4、安装SQLAlchemy
+$ pip install sqlalchemy
+5、安装mysql驱动
+pip install --allow-external mysql-connector-python mysql-connector-python
+6、安装Flask
+pip install Flask
+7、安装PIL
+apt-get install python-dev
+apt-get install libjpeg-dev
+apt-get install libjpeg8-dev
+apt-get install libpng3 
+apt-get install libfreetype6-dev
+ln -s /usr/lib/i386-linux-gnu/libfreetype.so /usr/lib
+ln -s /usr/lib/i386-linux-gnu/libjpeg.so /usr/lib
+ln -s /usr/lib/i386-linux-gnu/libz.so /usr/lib
+pip install PIL  --allow-unverified PIL --allow-all-external
